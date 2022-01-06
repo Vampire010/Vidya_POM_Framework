@@ -9,7 +9,6 @@ public class Login_Page_Test  extends Browser_Launcher
 {
 
 
-
 	public static void main(String[] args) 
 	{
 		String browser_type ="edge";
@@ -24,5 +23,6 @@ public class Login_Page_Test  extends Browser_Launcher
 		lp.User_Password("girish1234");
 		lp.Login_Btn();
 	}
+	
 
 }
